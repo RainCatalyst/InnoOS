@@ -1,0 +1,5 @@
+    1  cat /etc/os-release
+    2  echo "deb http://download.opensuse.org/repositories/home:/strycore/Debian_10/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
+    3  wget -q https://download.opensuse.org/repositories/home:/strycore/Debian_10/Release.key -O- | sudo apt-key add -
+    4  apt update
+    5  sudo su
