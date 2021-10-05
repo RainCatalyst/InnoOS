@@ -1,0 +1,1 @@
+size a.out > ex1.txt

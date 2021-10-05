@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   3652	    664	      8	   4324	   10e4	ex.a
