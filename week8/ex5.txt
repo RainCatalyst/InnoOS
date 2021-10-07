@@ -1,0 +1,7 @@
+Virtual addresses span across the virtual memory
+while physical addresses are limited by hardware memory.
+Virtual addresses are mapped to hardware addresses via
+the Memory Management Unit. And as virtual memory might be
+bigger than hardware memory, this mapping is usually not 1 to 1.
+So while they both represent addresses, virtual and physical addresses
+are indeed different.
