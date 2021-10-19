@@ -1,8 +1,0 @@
---2021-10-14 19:16:02--  https://files.catbox.moe/lyqddy.txt
-Resolving files.catbox.moe (files.catbox.moe)... 107.160.74.131
-Connecting to files.catbox.moe (files.catbox.moe)|107.160.74.131|:443... connected.
-ERROR: The certificate of ‘files.catbox.moe’ is not trusted.
-ERROR: The certificate of ‘files.catbox.moe’ has expired.
---2021-10-14 19:16:04--  http://lyqddy.txt/
-Resolving lyqddy.txt (lyqddy.txt)... failed: Name or service not known.
-wget: unable to resolve host address ‘lyqddy.txt’
