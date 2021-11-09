@@ -11,7 +11,7 @@ int main()
                                    "PRESS",
                                    "HOLD" };
 
-    // Initialize input structure
+    // Initialize the input structure
     struct input_event event;
 
     // Open files
@@ -28,7 +28,7 @@ int main()
     // Process events
     while (1)
     {
-        // Read event into the event structure
+        // Read an event into the event structure
         fread(&event, sizeof(struct input_event), 1, input);
 
         if (event.type == EV_KEY)

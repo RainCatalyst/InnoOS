@@ -7,7 +7,7 @@
 
 int main()
 {
-    // Initialize input structure
+    // Initialize the input structure
     struct input_event event;
 
     // Open the input and result files
@@ -35,6 +35,7 @@ int main()
             // Nonzero value means that the event is either pressed or held (2)
             pressed[event.code] = event.value % 2;
 
+            // Check the shortcuts (straightforward way)
             if (pressed[KEY_P] && pressed[KEY_E]) {
                 printf("I passed the Exam!\n");
                 fprintf(result, "I passed the Exam!\n");
